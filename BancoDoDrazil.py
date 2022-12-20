@@ -1,4 +1,4 @@
-path = 'C:\\Users\\saped\\Documents\\GitHub\\banco\\Contas.txt'
+path = 'C:\\Users\\20211174010009\\Documents\\Banco\\Contas.txt'
 
 with open(path, 'r') as f:
     contas = f.readlines()
@@ -44,4 +44,3 @@ class ContaBancaria:
             f.write(f'{self.titular}/{self.numero}/{self.saldo}\n')
         
 pedro = ContaBancaria('007')
-
